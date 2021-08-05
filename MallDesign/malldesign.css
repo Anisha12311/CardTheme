@@ -10,7 +10,7 @@ p {
 }
 
 .container {
-    padding-bottom: 2px;
+    padding-bottom: 80px;
     width: 400px;
     margin: 0 auto;
 }
@@ -20,12 +20,10 @@ p {
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 0px;
-    position: relative;
 }
 
-
 .menu_bottom {
-       background: rgb(231, 226, 226);
+       background: rgb(32, 32, 32);
     width: -webkit-fill-available;
     text-align: center;
     color: #171717;
@@ -165,40 +163,38 @@ p {
 
 .btn-success {
        color: black;
-    background-color: rgb(189, 184, 184);
+    background-color: rgb(32, 32, 32);
     border-color: black;
 }
 
 .AddCart{
-    background-color: rgb(49, 49, 49);
-    border: black;
+    background-color: rgb(32, 32, 32);
+    border: rgb(32, 32, 32);
     box-sizing: 90px;
     color: white;
     border-radius: 10px;
     width:120px;
     height: 30px;
 }
-
-
 .btn-success:hover {
-        color: white;
-    background-color: black;
-    border-color: gray;
+        color: black;
+    background-color: rgb(71, 70, 70);
+    border-color: rgb(71, 70, 70);
 }
 
 .Title1{
-    color:gray;
+    color:rgb(32, 32, 32);
     display: flex;
     justify-content: space-between;
 }
 .form-label{
-    color:black;
+    color:rgb(32, 32, 32);
 }
 .form-control{
-    color:black;
+    color:rgb(32, 32, 32);
 }
 .card h3 {
-    color: rgb(66, 66, 66);
+    color: #e91e63;
     font-size: 30px;
     font-family: 'Merriweather', serif;
 }
@@ -233,7 +229,7 @@ p {
 .sharebtns i.fab.fa-linkedin-in,
 .sharebtns i.fab.fa-twitter {
     background: blue;
-    color: white;
+    color: black;
     padding: 13px;
 }
 
@@ -241,7 +237,7 @@ p {
 .sharebtns i.fab.fa-instagram,
 .sharebtns i.fab.fa-pinterest {
     background: red;
-    color: white;
+    color: black;
     padding: 13px;
 }
 
@@ -256,8 +252,8 @@ p {
 
 #about {
     padding: 28px 15px;
-       border-bottom: 8px solid gray;
-    border-right: 25px solid gray;
+       border-bottom: 8px solid rgb(32, 32, 32);
+    border-right: 25px solid rgb(32, 32, 32);
 }
 
 #youtube {
@@ -305,7 +301,6 @@ p {
     font-size: 20px;
     margin-bottom: 5px;
         width: 50px;
-
 }
 .popup_sharebtns .share_btn i.fa-whatsapp{
     background-color: #519f3a;
