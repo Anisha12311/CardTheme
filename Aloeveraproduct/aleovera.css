@@ -391,3 +391,77 @@
     top : 0;
     z-index: 99;
 }
+.bank{
+  padding-left: 20px;
+  color: black; 
+  margin-top:40px; 
+  width : 600px;
+  width:300px; 
+  margin-left: 200px; 
+  margin-top : 50px;
+}
+@media(max-width : 668px){
+  .container {
+  
+   width: 350px;
+  
+  }
+}
+
+@media(max-width : 668px){
+  .card{
+  margin-left:60px;
+  }
+}
+@media(max-width : 668px){
+
+   h2{
+      margin-left: 10px;
+  }
+}
+@media(max-width : 668px){
+
+   .icon{
+      margin-left: 60px;
+  }
+}
+
+@media(max-width : 668px){
+  .btn{
+     margin-left: 40px;
+    
+}}
+.google{
+  margin-left: 150px;
+   margin-top :  20px; 
+   width: 450px;
+    height: 600px
+}
+@media(max-width : 668px){
+  .google{
+ width: 250px;
+ margin-top: 30px;
+ margin-left: 80px;
+}
+
+
+}
+
+@media(max-width : 668px){
+
+ .dis{
+     flex-direction: column;
+   
+ }
+ 
+ 
+ .bank{
+     margin-left: 60px;
+ }
+}
+@media(max-width : 668px){
+.social {
+  left : 20px;
+
+}
+}
